@@ -1,0 +1,55 @@
+28th June 2026
+
+WSL/Linux setup
+1. Open Powershell -> wsl --install
+2. Restart computer
+3. Open Powershell -> wsl --status (WSL2 as default)
+4. Type wsl -l -v
+5. Then, create account: nadia-bioeng
+6. It displays nadia-bioeng@Nadia:/mnt/c/Users/user$
+
+Meaning: 
+nadia-bioeng = Linux username
+Nadia = computer hostname
+/mnt/c/Users/user = my current location (Windows C: drive viewed from Linux)
+$ = normal user
+
+7. That means I am still inside the Windows powershell
+
+Linux commands: creating Folder/Directory
+1. To enter Ubuntu from Windows -> wsl -d Ubuntu-22.04
+2. Once inside the Ubuntu, type -> cd ~ to take me into my home Linux directory
+3. The commands I type are interpreted by bash. Bash is a shell (command interpreter), like how powershell is the interpreter for Windows. It received my commands and tells Linux what action I want to perform.
+4. I also learned another bash commands:
+
+pwd = print working directory
+cd = change directory
+mkdir - make directory (creating folder)
+ls = list files and folders
+ls -la = display all files in long format (including hidden files)
+whoami = current Linux username (who am I = nadia-bioeng)
+uname -a = display Linux system information
+df -h = display available disc space
+
+1st July 2026
+
+Linux commands: creating Files
+1. I also learned how to create file.
+These are the commands:
+
+touch notes.txt = create a new empty file called notes.txt
+ls = inside directory, all visible files will be listed
+cat notes.txt = concatenate (previously it was used to join files together but now it means display what is in the files)
+nano notes.txt = opens the file in Nano text editor (like in Windows - notepad), here I can write or edit its contents
+
+2. Inside nano, there are other commands as well. Just press "control + G" as it opens the Help page that explains all keyboard shortcuts.
+3. I also learned how to do other things instead of creting file.
+
+cp = copy a file (Syntax : cp original_file copied_file)
+mv = move or rename the file (Example: mv notes.txt Linux_notes.txt). If the filename contains space, Linux treats each word as a separate argument unless the name is enclosed in quotation marks.
+rm = delete files permanently. Unlike Windows, files are NOT moved to the Trash Bin so be careful when using this command.
+echo "string" > file.txt = overwrite the contents of file.txt. The old contents are replaced.
+echo "string" >>.txt = append the text to the end of the file. The old contents remain.
+
+
+Finished Module 1, going for Module 2
