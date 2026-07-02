@@ -36,3 +36,6 @@ Windows
 - [ ] Install Ubuntu through Linux
 - [ ] Navigate directories using bash commands
 - [ ] Understand where future bioinformatics will be run
+
+The journey was documented in the module01_journal.txt.
+

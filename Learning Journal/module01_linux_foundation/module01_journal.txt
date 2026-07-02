@@ -95,17 +95,17 @@ To enter Ubuntu from Windows:
 From this moment, I learned how to view my working directory, change, make and remove directory and other basic bash commands.
    
    Bash commands:
-   pwd		 = print the current  working directory
+   pwd		 = print the current working directory
    ls		 = list files and folders
-   ls -la	 = list  all files in long format (including hidden files)
+   ls -la	 = list all files in long format (including hidden files)
    whoami	 = display current Linux username (who am I = nadia-bioeng)
-   uname -a	 = display Linux kernel and  system information
+   uname -a	 = display Linux kernel and system information
    df -h	 = display available disc space in a human-readable format
    cd		 = change directory
    .		 = represents current location
    cd ..	 = represents parent directory
    mkdir	 = make directory
-   rmdir	 = remove an empty  directory (permanently)
+   rmdir	 = remove an empty directory (permanently)
    rm -r	 = remove directory with its contents
 
 So, these are the things I learned in this first ever module. 
