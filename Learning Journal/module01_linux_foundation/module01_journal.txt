@@ -3,15 +3,23 @@
 WSL/Linux setup
 
 Every operating system (OS) provides one or more shells for users to interact with it.
-Imagine shell is like a receptionist at a company's front desk. Instead of speaking directly to the operating system, users give commands to the shell. So shell interprets these commands, asks the operating system (through the kernel)  to perform or deliver the requested task, and then returns the results to the user.
+Imagine shell is like a receptionist at a company's front desk.
+Instead of speaking directly to the operating system, users give commands to the shell. 
+So shell interprets these commands, asks the operating system (through the kernel) to perform or deliver the requested task, and then returns the results to the user.
 
 Operating System         Common Shells
 ---------------------------------------------------------
 1. Windows               command prompt (cmd), PowerShell
 2. Linux                 bash, fish, dash
 
-Previous years, when users wanted to use Linux on Windows laptop, they have to choose whether to perform (i)  dual boot; basically choosing which OS to be used,(ii)  virtual machine; a software that enables Linux to run inside it but it  used a lot of RAM and CPU, or (iii) buy a separate Linux computer.
-Then, in 2016,  Microsoft announced Windows Subsystem for Linux (WSL), allowing users to run Linux inside Windows without installing a separate OS. The first version, WSL1 translated Linux system calls instead of running a real Linux kernel, so some softwares was not fully compatible. In 2019, Microsoft introduced WSL2 which runs a real Linux kernel inside lightweight environment, providing improved performance. Thanks to the developer that users like me (with no computational background) can run Linux inside my Windows without me needing to upgrade or change my laptop.
+Previous years, when users wanted to use Linux on Windows laptop, they have to choose whether to perform
+(i)  dual boot; basically choosing which OS to be used,
+(ii)  virtual machine; a software that enables Linux to run inside it but used a lot of RAM and CPU, or 
+(iii) buy a separate Linux computer.
+Then, in 2016,  Microsoft announced Windows Subsystem for Linux (WSL), allowing users to run Linux inside Windows without installing a separate OS. 
+The first version, WSL1 translated Linux system calls instead of running a real Linux kernel, so some softwares was not fully compatible. 
+In 2019, Microsoft introduced WSL2 which runs a real Linux kernel inside a lightweight environment, providing improved performance. 
+Thanks to the developer that users like me (with no computational background) can run Linux inside my Windows without me needing to upgrade or change my laptop.
 
 So back to how I managed to install WSL inside my Windows, I did:
 1) Open Windows Powershell.
