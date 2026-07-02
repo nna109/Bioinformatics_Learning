@@ -104,14 +104,14 @@ From this onwards, I began learning how to navigate the Linux filesystem using b
    
    Bash commands:
    pwd		 = print the current working directory
-   ls		 = list files and folders
+   ls		    = list files and folders
    ls -la	 = list all files in long format (including hidden files)
    whoami	 = display current Linux username (who am I = nadia-bioeng)
    uname -a	 = display Linux kernel and system information
-   df -h	 = display available disc space in a human-readable format
-   cd		 = change directory
-   .		 = represents current location
-   cd ..	 = represents parent directory
+   df -h	    = display available disc space in a human-readable format
+   cd		    = change directory
+   .		    = represents current location
+   cd ..	    = represents parent directory
 
    Bash commands to create folder:
    mkdir	 = make directory
@@ -120,8 +120,8 @@ From this onwards, I began learning how to navigate the Linux filesystem using b
 
    Bash commands to create file:
    touch file	 = creates a new empty file (Ex: touch notes.txt)
-   cat file	 = originally, cat meant "concatenate", which was used to join files together, but
-		   today, it is commonly used to display the contents of the file. (Ex: cat notes.txt)
+   cat file	    = originally, cat meant "concatenate", which was used to join files together, but
+		            today, it is commonly used to display the contents of the file. (Ex: cat notes.txt)
    nano file	 = opens the file in the Nano text editor so I can write or edit its contents (Ex: nano notes.txt)
    
    So, basically Nano (a lightweight text editor in Linux) is like a NotePad on Windows.
@@ -129,17 +129,17 @@ From this onwards, I began learning how to navigate the Linux filesystem using b
    
    cp		 = copy a file (Syntax: cp original_file copied_file)(Ex: cp notes.txt backup_notes.txt)
    mv		 = move or rename file (Syntax: mv original_file renamed_file)
-		   if the filename contains spaces, Linux treats each word as a separate argument,
-		   unless the name is enclosed in quotation marks (Ex: mv notes.txt "my file.txt")
+		      if the filename contains spaces, Linux treats each word as a separate argument,
+		      unless the name is enclosed in quotation marks (Ex: mv notes.txt "my file.txt")
    rm		 = deletes a file permanently, unlike Windows, rm does not moved files to the Recycle Bin
-		   once deleted, the file is usually difficult to recover
-   echo		 = write text into the file
-		   for example, I have a file named notes.txt, inside this file, I wrote Hello World
-		   instead of changing the words directly inside the file, I run command:
-		   echo "Hello Nadia" > notes.txt, this overwrites the file, where the old contents (Hello World) are replaced with Hello Nadia
-		   however if I wrote "Hello Nadia" >> notes.txt, the old contents remain, with the text appended to the end of the file
-		   so inside the file, it will contain
-		   Hello World
-		   Hello Nadia 
+		      once deleted, the file is usually difficult to recover
+   echo	 = write text into the file
+		      for example, I have a file named notes.txt, inside this file, I wrote Hello World
+		      instead of changing the words directly inside the file, I run command:
+		      echo "Hello Nadia" > notes.txt, this overwrites the file, where the old contents (Hello World) are replaced with Hello Nadia
+		      however if I wrote "Hello Nadia" >> notes.txt, the old contents remain, with the text appended to the end of the file
+		      so inside the file, it will contain
+		      Hello World
+		      Hello Nadia 
    
 So, these are the things I learned in this first ever module. 
