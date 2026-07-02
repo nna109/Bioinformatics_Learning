@@ -10,11 +10,11 @@ In this module, the workflow of setting up Linux enviroment is like this:
 ```
 Windows
 |
-|-- Powershell (Windows Shell)
+|__ Powershell (Windows Shell)
 |       |
 |       |__ WSL -- install
 |
-|-- WSL2 (Windows Subsytem for Linux)
+|__ WSL2 (Windows Subsytem for Linux)
       |    
     Ubuntu-22.04 (Linux Distribution)
         |
