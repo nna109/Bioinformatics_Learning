@@ -23,6 +23,7 @@ Thanks to the developer that users like me (with no computational background) ca
 
 A) Installation (One-time setup)
    To install WSL inside Windows, follow these commands:
+
 1) Open Windows Powershell.
 
 2) Run
@@ -81,10 +82,12 @@ A) Installation (One-time setup)
    Ubuntu-22.04   Stopped         2
    
    This command verifies that Ubuntu has been installed and that WSL2 is the default version.
-9) Then, proceed to the step B(2).
+
+9) Then, proceed to step B(2).
 
 B) Windows to Ubuntu (Daily usage)
    To enter Ubuntu from Windows (this is when you exit shell and want to enter the Ubuntu environment again from Windows Powershell) :
+
 1) Run
   
    wsl -d Ubuntu-22.04
