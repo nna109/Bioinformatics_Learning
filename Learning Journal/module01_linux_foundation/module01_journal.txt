@@ -21,7 +21,8 @@ The first version, WSL1, translated Linux system calls instead of running a real
 In 2019, Microsoft introduced WSL2 which runs a real Linux kernel inside a lightweight environment, providing improved performance. 
 Thanks to the developer that users like me (with no computational background) can run Linux inside my Windows without me needing to upgrade or change my laptop.
 
-So back to how I managed to install WSL inside my Windows, I did:
+A) Installation (One-time setup)
+   To install WSL inside Windows, follow these commands:
 1) Open Windows Powershell.
 
 2) Run
@@ -49,9 +50,11 @@ So back to how I managed to install WSL inside my Windows, I did:
 
    wsl --install -d Ubuntu-22.04
   
-   We are asking shell to execute the command and passes the request to Windows, whcih download and install Ubuntu (one of the Linux distro)
-   We wil be asking to create our username and password as well.
-   So, it will appear something like this:
+   We are asking PowerShell (the Windows shell) to execute the command and passes the request to Windows, whcih downloads and installs Ubuntu (one of the Linux distro)
+   After the installation is complete, Ubuntu will start for the first time. 
+   Ubuntu will then ask us to create username and password.
+   Once the account is created successfully, we will enter the Ubuntu bash shell and see a prompt similar to:
+
    nadia-bioeng@Nadia:~$ where,
    -----------------------------
    nadia-bioeng = Linux username
@@ -76,15 +79,17 @@ So back to how I managed to install WSL inside my Windows, I did:
    NAME           STATE           VERSION
    --------------------------------------
    Ubuntu-22.04   Stopped         2
+   
+   This command verifies that Ubuntu has been installed and that WSL2 is the default version.
+9) Then, proceed to the step B(2).
 
-At this stage, I am still inside the Windows powershell.
-
-To enter Ubuntu from Windows:
+B) Windows to Ubuntu (Daily usage)
+   To enter Ubuntu from Windows (this is when you exit shell and want to enter the Ubuntu environment again from Windows Powershell) :
 1) Run
   
    wsl -d Ubuntu-22.04
   
-   This command starts the Ubuntu distribution inside WSL and opens a bash shell.
+   This command starts the Ubuntu distribution inside WSL and opens a bash shell, allowing us to execute Linux commands.
 
 2) Run 
 
@@ -92,7 +97,7 @@ To enter Ubuntu from Windows:
 
    This command changes the current directory to my home Linux directory (~).
 
-From this moment, I learned how to view my working directory, change, make and remove directory and other basic bash commands.
+From this onwards, I began learning how to navigate the Linux filesystem using basic bash commands.
    
    Bash commands:
    pwd		 = print the current working directory
