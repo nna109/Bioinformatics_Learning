@@ -1,0 +1,100 @@
+28th June 2026
+
+WSL/Linux setup
+
+Every operating system (OS) provides one or more shells for users to interact with it.
+Imagine shell is like a receptionist at a company's front desk. Instead of speaking directly to the operating system, users give commands to the shell. So shell interprets these commands, asks the operating system (through the kernel)  to perform or deliver the requested task, and then returns the results to the user.
+
+Operating System         Common Shells
+---------------------------------------------------------
+1. Windows               command prompt (cmd), PowerShell
+2. Linux                 bash, fish, dash
+
+Previous years, when users wanted to use Linux on Windows laptop, they have to choose whether to perform (i)  dual boot; basically choosing which OS to be used,(ii)  virtual machine; a software that enables Linux to run inside it but it  used a lot of RAM and CPU, or (iii) buy a separate Linux computer.
+Then, in 2016,  Microsoft announced Windows Subsystem for Linux (WSL), allowing users to run Linux inside Windows without installing a separate OS. The first version, WSL1 translated Linux system calls instead of running a real Linux kernel, so some softwares was not fully compatible. In 2019, Microsoft introduced WSL2 which runs a real Linux kernel inside lightweight environment, providing improved performance. Thanks to the developer that users like me (with no computational background) can run Linux inside my Windows without me needing to upgrade or change my laptop.
+
+So back to how I managed to install WSL inside my Windows, I did:
+1) Open Windows Powershell.
+
+2) Run
+
+   wsl --install
+
+   At this stage, we are basically asking the Powershell (the shell) to execute the command "wsl --install". Powershell passes the request to Windows, which installs WSL.
+
+3) Restart the computer.
+
+4) Open Powershell again and run
+
+   wsl --status
+
+   This command checks whether WSL is installed and which version is used.
+   The output should show WSL2 is installed as the default version.
+
+5) Check the information about the Linux distribution (distro) by running
+
+   wsl --list --online
+
+   At this stage, you will see all Linux distributions.
+
+6) Run
+
+   wsl --install -d Ubuntu-22.04
+  
+   We are asking shell to execute the command and passes the request to Windows, whcih  download and install Ubuntu (one of the Linux distro)
+   We wil be asking to create our username and password as well.
+   So, it will appear something like this:
+   nadia-bioeng@Nadia:~$ where,
+   nadia-bioeng = Linux username
+   Nadia	= computer hostname
+   ~		= Linux home directory 
+   $		= normal user prompt
+
+7) Run
+
+   wsl --status
+
+   You will see the output as 
+   Default Distribution: Ubuntu-22.04
+   Default Version: 2
+   
+8) Check the installed distro and its version by running
+
+   wsl --list --verbose
+
+   At this stage, the output will be:
+   NAME           STATE           VERSION
+   Ubuntu-22.04   Stopped         2
+
+At this stage, I am still inside the Windows powershell.
+
+To enter Ubuntu from Windows:
+1) Run
+  
+   wsl -d Ubuntu-22.04
+  
+   This command starts the Ubuntu distribution inside WSL and opens a bash shell.
+
+2) Run 
+
+   cd ~
+
+   This command changes the current directory to my home Linux directory (~).
+
+From this moment, I learned how to view my working directory, change, make and remove directory and other basic bash command.
+   
+   Bash commands:
+   pwd		 = print the current  working directory
+   ls		 = list files and folders
+   ls -la	 = list  all files in long format (including hidden files)
+   whoami	 = display current Linux username (who am I = nadia-bioeng)
+   uname -a	 = display Linux kernel and  system information
+   df -h	 = display available disc space in a human-readable format
+   cd		 = change directory
+   .		 = represents current location
+   cd ..	 = represents parent directory
+   mkdir	 = make directory
+   rmdir	 = remove an empty  directory (permanently)
+   rm -r	 = remove directory with its contents
+
+So, these are the things I learned in this first ever  module, covering basic bash commands. 
