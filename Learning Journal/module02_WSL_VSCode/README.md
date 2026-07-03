@@ -42,4 +42,4 @@ Windows
 - [ ] Explain how VS Code communicates with Ubuntu through the WSL extension.
 - [ ] Execute bioinformatics tools such as Git, Python, Conda from bash terminal inside VS Code for efficient bioinformatics analysis.
 
-The journey was documented in the module02_WSL_VSCode.
+The journey was documented in the module02_journal.
