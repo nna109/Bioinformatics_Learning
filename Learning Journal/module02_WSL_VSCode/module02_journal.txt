@@ -1,1 +1,18 @@
 1st July 2026
+
+Integration of WSL and Visual Studio Code (VS Code)
+
+Okay, so let's start with the second module.
+
+From previous module, we know that Linux commands can be executed directly in the Ubuntu terminal,
+however, editing files using a terminal-based editor such as Nano becomes inconvenient for larger projects because;
+(i) you cannot navigate easily using your mouse
+(ii) it becomes difficult to edit long documents since we need to move left and right frequently to keep track of the texts
+
+Hence, to overcome these limitations (which I experienced myself), Visual Studio Code (VS Code) was developed as a modern code editor that provides graphical interface 
+while still allowing us to execute Linux commands through WSL
+This makes the application convenient as everything such as editing files, managing projects, running Linux commands, using Git, and programming
+can just be integrated into one single functional workspace
+
+So let us dive into the steps to integrate WSL and VS Code together
+
