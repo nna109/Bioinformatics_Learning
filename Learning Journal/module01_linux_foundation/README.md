@@ -24,18 +24,18 @@ Windows
 ```
 
 ## Goal
-- [ ] Understand what Linux is
-- [ ] Understand the role of shell
-- [ ] Install WSL2
-- [ ] Install Ubuntu-22.04
-- [ ] Learn basic bash commands
+- [ ] To understand what Linux is.
+- [ ] To understand the role of shell.
+- [ ] To be able to install WSL2.
+- [ ] To be able to install Ubuntu-22.04.
+- [ ] To learn and understand basic bash commands.
 
 ## What I can do after this module
-- [ ] Explain the difference between Windows and Linux
-- [ ] Explain what shell is
-- [ ] Install Ubuntu through Linux
-- [ ] Navigate directories using bash commands
-- [ ] Understand where future bioinformatics will be run
+- [ ] Explain the difference between Windows and Linux.
+- [ ] Explain what shell is.
+- [ ] Install Ubuntu through Linux.
+- [ ] Navigate directories using bash commands.
+- [ ] Understand where future bioinformatics will be run.
 
 The journey was documented in the module01_journal.txt.
 
