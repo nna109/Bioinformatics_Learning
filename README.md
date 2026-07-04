@@ -10,13 +10,13 @@ My interest in bioinformatics actually started many years ago.
 
 Back in 2018/2019 (I could not really recall), during my bachelor's degree, my university organized a seminar about the R programming language. One of the speakers, Mr. Joel Low, a data scientist from Sime Darby and also an alumni, introduced us to bioinformatics tools and their applications.
 
-After the seminar, I asked him how I should start learning bioinformatics. His advice was simple: start by exploring the tools and learning a little programming step by step.
+DUring the Q&S session, I asked him how I should start learning bioinformatics. His advice was simple: start by exploring the tools and learning a little programming step by step.
 
 After the seminar ended, he even approached me personally to encourage me to begin learning. I really appreciated his advice, but at that time, I never took the first step.
 
 ## Second encounter: Inspiration
 
-Later, during my master's study, I met my labmate, Helen. I still remember one day when the computer connected to the liquid chromatography system encountered a problem. She called her brother, and together they troubleshot the system using some commands, like how some hacking movies did, hahaha. I was surprised to see how they could solve the problem through programming. Even my supervisor was impressed.
+Later, during my master's study (2021), I met my labmate, Helen. I still remember one day when the computer connected to the liquid chromatography system encountered a problem. She called her brother, and together they troubleshot the system using some commands, like how some hacking movies did, hahaha. I was surprised to see how they could solve the problem through programming. Even my supervisor was impressed.
 
 That experience sparked my interest in coding once again.
 
@@ -24,7 +24,7 @@ However, I still did not begin learning.
 
 ## Third encounter: Motivation
 
-Now, during my PhD journey, my research involves RNA sequencing and bioinformatics, which was a completely new field for me. My background had always been focused on bioprocess and protein purification, but this project introduced me to explore molecular biology specifically mRNA regulation and the computational side of this biological research.
+Now, during my PhD journey (2025), my research involves RNA sequencing and bioinformatics, which was a completely new field for me. My background had always been focused on bioprocess and protein purification, but this project introduced me to explore molecular biology specifically mRNA regulation and the computational side of this biological research.
 
 My labmate, Ibnu, taught himself programming, statistics, and bioinformatics tools. Watching him steadily improve through self-learning inspired me to finally begin my own journey.
 
