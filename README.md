@@ -10,7 +10,7 @@ My interest in bioinformatics actually started many years ago.
 
 Back in 2018/2019 (I could not really recall), during my bachelor's degree, my university organized a seminar about the R programming language. One of the speakers, Mr. Joel Low, a data scientist from Sime Darby and also an alumni, introduced us to bioinformatics tools and their applications.
 
-DUring the Q&A session, I asked him how I should start learning bioinformatics. His advice was simple: start by exploring the tools and learning a little programming step by step.
+During the Q&A session, I asked him how I should start learning bioinformatics. His advice was simple: start by exploring the tools and learning a little programming step by step.
 
 After the seminar ended, he even approached me personally to encourage me to begin learning. I really appreciated his advice, but at that time, I never took the first step.
 
@@ -42,7 +42,7 @@ I actually started this journey feeling scared, because I was so concern about t
 
 Instead, I learned that by understanding what I am installing and following reliable guides, I can actually learn confidently without worrying about breaking my system.
 
-Nowadays, there are a lot of learning resoures as well. AI tools can help explain concept, suggest commands and guide us in a proper direction. However, learn to not simply copy the commands. Instead, use these tools as learning companions, ask why this particular command is needed, understand what it does, and learn from the explanation behind it.
+Nowadays, there are a lot of learning resources as well. AI tools can help explain concept, suggest commands and guide us in a proper direction. However, learn to not simply copy the commands. Instead, use these tools as learning companions, ask why this particular command is needed, understand what it does, and learn from the explanation behind it.
 
 So, this repository is not meant to demonstrate expertise. Instead, it is a record of my learning process.
 
