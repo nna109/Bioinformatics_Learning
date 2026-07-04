@@ -8,7 +8,7 @@ My interest in bioinformatics actually started many years ago.
 
 ## First encounter: Curiosity
 
-Back in 2017, during my bachelor's degree, my university organized a seminar about the R programming language. One of the speakers, Mr. Joel Low, a data scientist from Sime Darby and also an alumni, introduced us to bioinformatics tools and their applications.
+Back in 2018/2019 (I could not really recall), during my bachelor's degree, my university organized a seminar about the R programming language. One of the speakers, Mr. Joel Low, a data scientist from Sime Darby and also an alumni, introduced us to bioinformatics tools and their applications.
 
 After the seminar, I asked him how I should start learning bioinformatics. His advice was simple: start by exploring the tools and learning a little programming step by step.
 
