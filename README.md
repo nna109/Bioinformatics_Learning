@@ -16,7 +16,7 @@ After the seminar ended, he even approached me personally to encourage me to beg
 
 ## Second encounter: Inspiration
 
-Later, during my master's study, I met my labmate, Helen. I still remember one day when the computer connected to the liquid chromatography system encountered a problem. She called her brother, and together they troubleshot the system using some commands, like hacking hahaha. I was surprised to see how they could solve the problem through programming. Even my supervisor was impressed.
+Later, during my master's study, I met my labmate, Helen. I still remember one day when the computer connected to the liquid chromatography system encountered a problem. She called her brother, and together they troubleshot the system using some commands, like how some hacking movies did, hahaha. I was surprised to see how they could solve the problem through programming. Even my supervisor was impressed.
 
 That experience sparked my interest in coding once again.
 
