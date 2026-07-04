@@ -14,5 +14,164 @@ while still allowing us to execute Linux commands through WSL
 This makes the application convenient as everything such as editing files, managing projects, running Linux commands, using Git, and programming
 can just be integrated into one single functional workspace
 
-So let us dive into the steps to integrate WSL and VS Code together
+So let us dive into the steps to integrate WSL and VS Code together.
+
+A) Installation of VS Code
+
+1. Download and install Visual Studio Code from Microsoft's official website.
+
+   VS Code is a Windows application. At this stage, VS Code is only a text editor. It does not yet execute Linux commands.
+   In order to allow that, we have to install WSL extension.
+
+B) Installation of WSL Extension
+
+1. Open VS Code apps. Inside VS Code, go to the Extension (last icon with four squares located at the most left side column)
+
+   Extension
+        |
+   Search "WSL"
+        |
+   Install the Microsoft WSL extension
+
+   The WSL extension allows VS Code running on Windows to communicate directly with Ubuntu running inside WSL.
+
+C) Start Ubuntu and open VS Code from Ubuntu
+
+1. Open Windows PowerShell and run:
+
+   wsl -d Ubuntu-22.04
+
+   Remmeber this command in the previous module?
+   This command starts Ubuntu and opens the Bash shell.
+
+2. Then, to open VS Code from Ubuntu, run
+
+   cd directory
+
+   In my case, I have created a directory named as Bioinformatics_Learning, hence, I run
+
+   cd Bioinformatics_Learning
+
+3. Then, check the prompt, the prompt should appear like this:
+
+   Nadia-bioeng@Nadia:~$ cd Bioinformatics_Learning
+
+   This means that we are inside the directory. 
+
+4. Then, run this command:
+
+   code .
+
+   code = starts VS Code app
+   .    = open the current directory
+
+   At this stage, VS Code will automatically open my Linux folder.
+
+What happens if I run code . before entering my project directort?
+
+    The . (dot) in code . means "the current directory". Therefore, VS Code will always open whichever directory I am currently in. 
+    For example. immediately after starting Ubuntu, my current directory is my Linux home directory (~), which appears like this:
+
+    Nadia-bioeng@Nadia:~$
+
+    If I run code . right after the prompt. VS Code will open my home directory, which contains files such as:
+
+    ~
+    |_ .bashrc
+    |_ .profile
+    |_ Downloads
+    |_ Documents
+    |_ ...
+
+    However, if I first navigate to my project directory which is
+
+    cd Bioinformatics_Learning
+
+    my prompt becomes
+
+    Nadia-bioeng@Nadia:~/Bioinformatics_Learning$
+
+    Then, running code . will open my Bioinformatics_Learning folder instead. 
+    Therefore, it is a good practice to first navigate to the project directory and then execute code ., in order to open 
+    the correct project folder inside the VS Code (for convenient as well as we don't have to go through all the folders)
+
+    So, remember, code . does not mean "open VS Code". It means "opens VS Code in the current directory".
+    The folder that opens depends entirely on where I am when I execute the command.
+
+How do I know VS Code is connected to Ubuntu?
+
+    There are several indicators that confirm VS Code is connected to WSL.
+
+    First,
+
+    the title bar displays 
+
+    [WSL: Ubuntu-22.04]
+
+    Second,
+
+    the Explorer (the second left side column) displays Linux folders.
+    For example,
+
+    ~
+    |_ .bashrc    
+    |_ .profile
+    |_ Bioinformatics_Learning
+
+    instead of
+
+    C:\Users\...
+
+    Third,
+
+    the integrated terminal (on the top taskbar, there is Terminal, click that and open New Terminal) displays
+
+    Nadia-bioeng@Nadia:~$ or Nadia-bioeng@Nadia:~/Bioinformatics_Learning$
+
+    instead of
+
+    PS C:\Users\
+
+Why not just use Nano?
+
+    Yes, we can absolutely use Nano because it is available on almost every Linux system, useful for editing files on remote servers, and lightweight.
+
+    However, VS Code offers a lot of benefits such as:-
+
+    syntax highlighting
+    file Explorer
+    Git Integration
+    Python support
+    multiple tabs 
+    debugging
+    extensions
+    integrated Terminal
+
+    Therefore, Nano is useful for learning Linux, whereas VS Code is better suited for everyday bioinformatics projects.
+
+One of the common mistakes that I did last time
+
+    I run code . before installing the WSL extension.
+    At that time, I was trying to install WSL on my working PC without referring to my notes that I made on my first time installing WSL on my personal laptop, hahaha
+    This was because I wanted to revise and test the code on my own.
+
+    However, I forgot that I have not installed the WSL extension in my VS Code yet. So when I ran the code, the result was
+
+    code: command not found
+
+    Hahaha, I was panicked and tried to find solution, then only I remembered that I have not installed WSL extension on my work PC yet.
+    So yeap, do install VS Code and the Microsoft WSL extension first before running code ..
+    And, always check the prompt before executing commands whether they are PS C:\users\ (PowerShell prompt) or username@hostname:~$ (Bash shell)
+
+    Besides, don't be confused by thinking VS Code runs Linux.
+    VS Code runs on Windows, only the Bash terminal runs inside Ubuntu, and this Ubuntu has been integrated into VS Code via WSL extension.
+
+For summary on what I learned:
+
+    1) VS Code is actually a Windows app, but it can work directly with Ubuntu through WSL.
+    2) The code . command does not install VS Code, it simply tells the already-installed VS Code to open the current Linux folder.
+    3) The terminal prompt immediately tell me whether I am in PowerShell (PS C:\Users\...) or Bash (username@hostname:~$).
+
+That's all for now!
+
 

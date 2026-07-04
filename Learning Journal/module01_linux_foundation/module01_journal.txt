@@ -10,7 +10,7 @@ So shell interprets these commands, asks the operating system (through the kerne
 Operating System         Common Shells
 ---------------------------------------------------------
 1. Windows               command prompt (cmd), PowerShell
-2. Linux                 bash, fish, dash
+2. Linux                 Bash, fish, dash
 
 Previous years, when users wanted to use Linux on Windows laptop, they have to choose whether to perform:
 (i) dual boot; basically choosing which OS to be used,
@@ -54,7 +54,7 @@ A) Installation (One-time setup)
    We are asking PowerShell (the Windows shell) to execute the command and passes the request to Windows, whcih downloads and installs Ubuntu (one of the Linux distro)
    After the installation is complete, Ubuntu will start for the first time. 
    Ubuntu will then ask us to create username and password.
-   Once the account is created successfully, we will enter the Ubuntu bash shell and see a prompt similar to:
+   Once the account is created successfully, we will enter the Ubuntu Bash shell and see a prompt similar to:
 
    nadia-bioeng@Nadia:~$ where,
    -----------------------------
@@ -92,7 +92,7 @@ B) Windows to Ubuntu (Daily usage)
   
    wsl -d Ubuntu-22.04
   
-   This command starts the Ubuntu distribution inside WSL and opens a bash shell, allowing us to execute Linux commands.
+   This command starts the Ubuntu distribution inside WSL and opens a Bash shell, allowing us to execute Linux commands.
 
 2) Run 
 
@@ -100,7 +100,7 @@ B) Windows to Ubuntu (Daily usage)
 
    This command changes the current directory to my home Linux directory (~).
 
-From this onwards, I began learning how to navigate the Linux filesystem using basic bash commands.
+From this onwards, I began learning how to navigate the Linux filesystem using basic Bash commands.
    
    Bash commands:
    pwd      = print the current working directory

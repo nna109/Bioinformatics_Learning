@@ -3,7 +3,7 @@ This repository documents my learning journey from beginner (zero computational 
 
 # My learning roadmap:
 - [ ] module01_linux_foundation
-- [ ] module02_VSCode_WSL
+- [ ] module02_WSL_VSCode
 - [ ] module03_git
 - [ ] module04_GitHub
 - [ ] module05_conda
