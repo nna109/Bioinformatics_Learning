@@ -22,3 +22,5 @@ This repository documents my learning journey from beginner (zero computational 
 *"Every expert was once a beginner"*
 
 ### Branch Test
+6th July: Learned how git branches work.
+This line only exists in the test branch.
