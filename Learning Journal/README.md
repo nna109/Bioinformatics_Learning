@@ -24,3 +24,4 @@ This repository documents my learning journey from beginner (zero computational 
 ### Branch Test
 6th July: Learned how git branches work.
 This line only exists in the test branch.
+Now, this test will be merged with the main.
