@@ -139,32 +139,47 @@ Why not just use Nano?
     However, VS Code offers a lot of benefits such as:-
 
     syntax highlighting
-    file Explorer
-    Git Integration
+    file explorer
+    Git integration
     Python support
     multiple tabs 
     debugging
     extensions
-    integrated Terminal
+    integrated terminal
 
     Therefore, Nano is useful for learning Linux, whereas VS Code is better suited for everyday bioinformatics projects.
 
-One of the common mistakes that I did last time
+One of the common mistakes I made last time
 
-    I run code . before installing the WSL extension.
-    At that time, I was trying to install WSL on my working PC without referring to my notes that I made on my first time installing WSL on my personal laptop, hahaha
-    This was because I wanted to revise and test the code on my own.
+    I ran 
+    
+    code . 
+    
+    before installing the WSL extension.
+    
+    At that time, I was trying to install WSL on my working PC without referring to my notes I had written when I first installed WSL on my personal laptop, hahaha
+    I wanted to revise the installation process and test whether I could do everything from my memory.
 
-    However, I forgot that I have not installed the WSL extension in my VS Code yet. So when I ran the code, the result was
+    However, I forgot that I had not installed the WSL extension in VS Code yet. So when I ran the code, the result was
 
     code: command not found
 
-    Hahaha, I was panicked and tried to find solution, then only I remembered that I have not installed WSL extension on my work PC yet.
-    So yeap, do install VS Code and the Microsoft WSL extension first before running code ..
-    And, always check the prompt before executing commands whether they are PS C:\users\ (PowerShell prompt) or username@hostname:~$ (Bash shell)
+    Hahaha, I panicked and started looking for solution, then only I remembered that I had forgotten to install the WSL extension on my work PC yet.
+    
+    So yeap, do install VS Code and the Microsoft WSL extension first before running code . from Ubuntu.
+    Also, always check the prompt before executing commands
+    
+    For example:
+    
+    PS C:\users\ (PowerShell prompt) or 
+    username@hostname:~$ (Bash shell)
 
-    Besides, don't be confused by thinking VS Code runs Linux.
-    VS Code runs on Windows, only the Bash terminal runs inside Ubuntu, and this Ubuntu has been integrated into VS Code via WSL extension.
+    This immediately tells me which environment I am currently in.
+
+    Another important lesson is that VS Code itself does not run inside Linux.
+    1) VS Code is a Windows app.
+    2) The Bash terminal runs inside Ubuntu.
+    3) VS Code communicates with Ubuntu through WSL.
 
 For summary on what I learned:
 
@@ -172,6 +187,6 @@ For summary on what I learned:
     2) The code . command does not install VS Code, it simply tells the already-installed VS Code to open the current Linux folder.
     3) The terminal prompt immediately tell me whether I am in PowerShell (PS C:\Users\...) or Bash (username@hostname:~$).
 
-That's all for now!
+
 
 
