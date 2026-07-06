@@ -2,4 +2,14 @@
 
 Git and GitHub Fundamentals
 
+What is Git?
+Git is a Version Control System (VCS).
 
+Instead of creating multiple copies of a document like:
+
+    report.docx
+    report_final.docx
+    report_final_FINAL.docx
+    report_final_FINAL_v2.docx
+
+Git records every change as a history (timeline) of the project.
