@@ -21,6 +21,6 @@ This repository documents my learning journey from beginner (zero computational 
 *"Every expert was once a beginner"*
 
 ### Branch Test
-6th July: Learned how git branches work.
-This line only exists in the test branch.
-Now, this test will be merged with the main.
+6th July: Learned how Git branches works.
+This line originally existed in the "test" branch.
+Seeing this section here means that the test brach has been successfully merged into the "main" branch.
