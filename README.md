@@ -38,6 +38,8 @@ Later, when I started my PhD and began learning RNA sequencing, he continued enc
 
 Because of that, I decided to stop waiting for the "perfect time" and simply start learning.
 
+## Final Take
+
 I actually started this journey feeling scared, because I was so concern about the implication of installing this and that. I kept thinking "What if installing this interrupts my computer system?". They did not, Nadia.
 
 Instead, I learned that by understanding what I am installing and following reliable guides, I can actually learn confidently without worrying about breaking my system.
