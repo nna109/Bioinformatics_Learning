@@ -49,7 +49,7 @@ A) Installation (One-time setup)
 
 6) Run
 
-   wsl --install -d Ubuntu-22.04
+   wsl --install -d Ubuntu-22.04 or wsl.exe --install -d
   
    We are asking PowerShell (the Windows shell) to execute the command and passes the request to Windows, whcih downloads and installs Ubuntu (one of the Linux distro)
    After the installation is complete, Ubuntu will start for the first time. 
@@ -113,6 +113,7 @@ From this onwards, I began learning how to navigate the Linux filesystem using b
    .        = represents current location
    cd ..    = represents parent directory
 
+
    Bash commands to create folder:
    mkdir    = make directory
    rmdir    = remove an empty directory (permanently)
@@ -143,3 +144,5 @@ From this onwards, I began learning how to navigate the Linux filesystem using b
 	             Hello Nadia 
    
 So, these are the things I learned in this first ever module. 
+
+
