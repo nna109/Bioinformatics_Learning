@@ -2,21 +2,37 @@
 This repository documents my learning journey from beginner (zero computational background) to someone who will insyaAllah know a bit here and there about programming or bioinformatics.
 
 # My learning roadmap:
-- [ ] module01_linux_foundation
-- [ ] module02_WSL_VSCode
-- [ ] module03_Git_GitHub
-- [ ] module04_conda
-- [ ] module05_python_basics
-- [ ] module06_long_read_sequencing
+- Part1: Foundation
+- [ ] Module01: Linux Foundation
+- [ ] Module02: WSL + VS Code
+- [ ] Module03: Git
+- [ ] Module04: GitHub
 
+- Part2: Software Environments
+- [ ] Module05a: Conda
+- [ ] Module05b: Apptainer/Containers
 
-## Current Progress
-### Learning Path
+- Part3: Surviving Real Data
+- [ ] Module06: Command-line for Large Files
+- [ ] Module07: File Formats
 
-- [/] module01
-- [/] module02
-- [/] module03
-- [/] module04
+- Part4: Processing Pipeline
+- [ ] Module08: Sequencing + ONT
+- [ ] Module09: The Tools inside Containers
+- [ ] Module10: Reading .bat Files
+- [ ] Module11: Genome Browser
+
+- Part5: Analysis
+- [ ] Module12: Python Basics
+- [ ] Module13: Python for Tables:pandas
+- [ ] Module14: Statistics
+- [ ] Module15: TPM & Polysome Ratio
+- [ ] Module16: Long-read Transcriptomics
+- [ ] Module17: From Ranked Genes to Wet Lab
+
+- Part6: Scaling & Publishing
+- [ ] Module18: Automation
+- [ ] Module19: Reproducible Research
 
 *"Every expert was once a beginner"*
 
